@@ -1,0 +1,22 @@
+export class products{
+    constructor(id,title,description,category,price,discount,image){
+          this.id=id;
+          this.title=title;
+          this.description=description;
+          this.category=category;
+          this.price=price;
+          this.discount=discount;
+          this.image=image
+     } 
+    getallproducts(){
+          return{
+               id:this.id,
+               title:this.title,
+               description:this.description,
+               category:this.category,
+               price:this.price,
+               discount:this.discount,
+               image:this.image
+          }
+     }
+} 
